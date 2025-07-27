@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hemanth Chintala - Frontend Developer</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Animated Background -->
+    <div class="bg-animation"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="logo">HC</div>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="mobile-menu" id="mobile-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Hemanth Chintala</h1>
+            <p class="hero-subtitle">Eluru, Andhra Pradesh</p>
+            <p class="hero-description">Front-end developer passionate about crafting responsive and user-friendly web experiences.</p>
+            <div class="cta-buttons">
+                <a href="#projects" class="btn btn-primary">View Projects</a>
+                <a href="#contact" class="btn btn-secondary">Contact Me</a>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-content">
+            <div class="about-text">
+                <p>As a dedicated B.Tech Computer Science student at VIT-AP University, I am passionate about creating exceptional digital experiences through front-end development and UI/UX design. My journey in technology is driven by a desire to bridge the gap between innovative ideas and user-friendly implementations.</p>
+                <p>With a strong foundation in programming languages and modern web technologies, I strive to build responsive, accessible, and visually appealing web applications that solve real-world problems and enhance user experiences.</p>
+                <div class="resume-download">
+                    <a href="#" class="btn btn-primary" onclick="downloadResume()">
+                        <i class="fas fa-download"></i> Download Resume
+                    </a>
+                </div>
+            </div>
+            <div class="about-image">
+                <div class="about-card">
+                    <div class="stats">
+                        <div class="stat-item">
+                            <h3>8.95</h3>
+                            <p>CGPA</p>
+                        </div>
+                        <div class="stat-item">
+                            <h3>2027</h3>
+                            <p>Graduation Year</p>
+                        </div>
+                        <div class="stat-item">
+                            <h3>Frontend</h3>
+                            <p>Specialist</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+        <h2 class="section-title">Skills</h2>
+        <div class="skills-grid">
+            <div class="skill-category">
+                <h3><i class="fas fa-code"></i> Programming Languages</h3>
+                <div class="skill-tags">
+                    <span class="skill-tag">Python (Intermediate)</span>
+                    <span class="skill-tag">Java (Intermediate)</span>
+                    <span class="skill-tag">C (Intermediate)</span>
+                    <span class="skill-tag">C++ (Basic)</span>
+                    <span class="skill-tag">JavaScript (Novice)</span>
+                </div>
+            </div>
+            <div class="skill-category">
+                <h3><i class="fas fa-tools"></i> Tools & Technologies</h3>
+                <div class="skill-tags">
+                    <span class="skill-tag">HTML</span>
+                    <span class="skill-tag">CSS</span>
+                    <span class="skill-tag">SQL</span>
+                    <span class="skill-tag">Git</span>
+                    <span class="skill-tag">GitHub</span>
+                </div>
+            </div>
+            <div class="skill-category">
+                <h3><i class="fas fa-palette"></i> Design</h3>
+                <div class="skill-tags">
+                    <span class="skill-tag">UI/UX Fundamentals</span>
+                    <span class="skill-tag">Responsive Design</span>
+                    <span class="skill-tag">User Experience</span>
+                    <span class="skill-tag">Web Accessibility</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+        <h2 class="section-title">Projects</h2>
+        <div class="projects-grid">
+            <div class="project-card">
+                <div class="project-image">
+                    <i class="fas fa-lock"></i>
+                </div>
+                <div class="project-content">
+                    <h3>Login Interface</h3>
+                    <p>A modern and responsive login page with sleek design and smooth animations. Features form validation and user-friendly interface elements.</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">HTML</span>
+                        <span class="tech-tag">CSS</span>
+                        <span class="tech-tag">JavaScript</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://hemanth-chintala.github.io/LOGIN-INTERFACE/" target="_blank" class="btn btn-primary">
+                            <i class="fas fa-external-link-alt"></i> Live Demo
+                        </a>
+                        <a href="https://github.com/hemanth-chintala/LOGIN-INTERFACE" target="_blank" class="btn btn-secondary">
+                            <i class="fab fa-github"></i> Source
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-image">
+                    <i class="fas fa-heart"></i>
+                </div>
+                <div class="project-content">
+                    <h3>Tribute Page</h3>
+                    <p>A beautifully crafted tribute page showcasing responsive design principles and modern web development techniques with engaging visual elements.</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">HTML</span>
+                        <span class="tech-tag">CSS</span>
+                        <span class="tech-tag">Responsive Design</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://hemanth-chintala.github.io/tribute-page/" target="_blank" class="btn btn-primary">
+                            <i class="fas fa-external-link-alt"></i> Live Demo
+                        </a>
+                        <a href="https://github.com/hemanth-chintala/tribute-page" target="_blank" class="btn btn-secondary">
+                            <i class="fab fa-github"></i> Source
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="section">
+        <h2 class="section-title">Education</h2>
+        <div class="education-timeline">
+            <div class="timeline-item">
+                <div class="timeline-marker"></div>
+                <div class="timeline-content">
+                    <h3>Bachelor of Technology - Computer Science Engineering</h3>
+                    <h4>VIT-AP University</h4>
+                    <p class="timeline-period">2023 - 2027</p>
+                    <p class="timeline-grade">CGPA: 8.89</p>
+                    <p>Currently pursuing B.Tech in Computer Science Engineering with focus on software development, algorithms, and modern web technologies.</p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-marker"></div>
+                <div class="timeline-content">
+                    <h3>Intermediate (12th Grade)</h3>
+                    <h4>Sri Chaitanya Jr. College</h4>
+                    <p class="timeline-period">2021 - 2023</p>
+                    <p class="timeline-grade">Percentage: 96.8%</p>
+                    <p>Completed intermediate education with exceptional academic performance in Mathematics, Physics, and Chemistry.</p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-marker"></div>
+                <div class="timeline-content">
+                    <h3>Secondary School (10th Grade)</h3>
+                    <h4>Sri Surya E.M High School</h4>
+                    <p class="timeline-period">2011 - 2021</p>
+                    <p class="timeline-grade">Percentage: 100%</p>
+                    <p>Achieved perfect score in secondary school examination, demonstrating strong academic foundation across all subjects.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <h2 class="section-title">Get In Touch</h2>
+        <div class="contact-content">
+            <div class="contact-info">
+                <div class="contact-item">
+                    <i class="fas fa-envelope"></i>
+                    <div class="contact-E">
+                        <h3>Email</h3>
+                       <a href="mailto:hemanthchintala6@gmail.com" style="color: var(--text-primary); text-decoration: none;">hemanthchintala6@gmail.com</a>
+
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-phone"></i>
+                    <div>
+                        <h3>Phone</h3>
+                        <p>6303357332</p>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <div>
+                        <h3>Location</h3>
+                        <p>Eluru, Andhra Pradesh</p>
+                    </div>
+                </div>
+            </div>
+            <div class="social-links">
+                <a href="https://github.com/hemanth-chintala" target="_blank" class="social-link">
+                    <i class="fab fa-github"></i>
+                    <span>GitHub</span>
+                </a>
+                <a href="https://linkedin.com/in/hemanth-chintala" target="_blank" class="social-link">
+                    <i class="fab fa-linkedin"></i>
+                    <span>LinkedIn</span>
+                </a>
+                <a href="https://leetcode.com/hemanth-chintala" target="_blank" class="social-link">
+                    <i class="fas fa-code"></i>
+                    <span>LeetCode</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <p>&copy; 2025 Hemanth Chintala. All rights reserved.</p>
+            <div class="footer-social">
+                <a href="https://github.com/hemanth-chintala" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://linkedin.com/in/hemanth-chintala" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://leetcode.com/hemanth-chintala" target="_blank"><i class="fas fa-code"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button id="back-to-top" class="back-to-top">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>
